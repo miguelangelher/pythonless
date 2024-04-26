@@ -5,7 +5,7 @@ COPY . /app
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip3 install -r requirements.txt
 
-FROM gcr.io/distroless/python3:debug
+FROM gcr.io/distroless/python3:latest
 COPY --from=builder /usr/local/lib/python3.9/site-packages /usr/local/lib/python3.9/site-packages
 COPY --from=builder /app /app
 WORKDIR /app
